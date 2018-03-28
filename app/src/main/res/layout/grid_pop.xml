@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/grid_but"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_margin="11dp"
+        android:background="#ff0"
+        android:clickable="false"
+        android:ellipsize="end"
+        android:focusable="false"
+        android:gravity="center"
+
+        android:maxEms="7"
+        android:saveEnabled="false"
+        android:singleLine="true"
+        android:text="aaaa"
+        android:textColor="#646464"
+        android:textSize="14dp" />
+</LinearLayout>
